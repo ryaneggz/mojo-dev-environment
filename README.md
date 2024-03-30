@@ -38,7 +38,7 @@ struct Car:
 fn main():
     var my_engine = Engine("V8", 400)
     var my_car = Car("Chevy", "Camaro", 2022, my_engine)
-    print(my_car.get_car_info())
+    print(my_car.get_car_info()) # Car: Chevy Camaro 2022 Engine: V8 400
 ```
 
 This program demonstrates defining custom types (structures) and initializing them with specific values. The main function creates an Engine and a Car with that engine, then prints information about the car.
